@@ -1,7 +1,9 @@
 # EC2 SSL termination for a Beanstalk single instance environment
 Letsencrypt integration for Elastic Beanstalk (AL2, nginx webserver, without proxy) Tested on the platform: PHP 7.4 running on 64bit Amazon Linux 2/3.1.2
 
-- Avoiding the 5-time-a-week Letsencrypt cert issuing limit
+Features
+- There is no need for a LoadBalancer
+- No worries about Letsencrypt cert issuing limit (5 times a week)
 - Auto cert renewal
 - http to https redirect
 - domain.tld to www.domain.tld redirect
