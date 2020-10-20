@@ -37,6 +37,6 @@ Letsencrypt integration for Elastic Beanstalk (AL2, nginx webserver, without pro
 ```
 3. Create a new Beanstalk environment, associate the created ec2 role with beanstalk instance and deploy a SAMPLE app (not your app).
 4. Point DNS names to the beanstalk environment
-5. Put your info in the .ebextensions/https.config and .platform/nginx.conf files
+5. Put your info in the .ebextensions/https.config and .platform/nginx/nginx.conf files
 6. Make an app bundle by adding the .ebextensions and .platform folders with the files.
 7. Deploy your app
