@@ -9,7 +9,7 @@ Letsencrypt integration for Elastic Beanstalk (AL2, nginx webserver, without pro
 - domain.tld to www.domain.tld redirect
 
 ## Installation:
-1. Create a bucket to store a letsencrypt certificate
+1. Create an S3 bucket to store a letsencrypt certificate
 2. Create an ec2 instance role based on "aws-elasticbeanstalk-ec2-role" and add this inline policy (replace `<bucket-name>` with the real bucket name):
 
 ```
