@@ -4,7 +4,7 @@ Letsencrypt integration for Elastic Beanstalk (AL2, nginx webserver, without pro
 ## Features:
 - There is no need for a LoadBalancer
 - No worries about the Letsencrypt's cert issuing limit (5 times a week)
-- Auto cert renewal
+- Сert auto renewal
 - http to https redirect
 - domain.tld to www.domain.tld redirect
 
